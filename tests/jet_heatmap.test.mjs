@@ -171,7 +171,7 @@ describe('TDD: Space Defender Arcade Jet Heatmap Engine', () => {
           if (!g.includes('class="value"')) continue;
           const prefixMatch = g.match(/<text [^>]+>(.*?)<tspan [^>]*class="value"/);
           if (prefixMatch) {
-            const rawPrefix = prefixMatch[1].replace(/<[^>]+>/g, '');
+            const rawPrefix = prefixMatch[1].replace(/<[^>]+>/g, '').replace(/&amp;/g, '&');
             assert.strictEqual(
               rawPrefix.length,
               28,
