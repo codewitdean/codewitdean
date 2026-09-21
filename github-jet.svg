@@ -50,7 +50,7 @@
 <!-- Retro Arcade Top HUD -->
 <g id="arcade-hud">
   <!-- SCORE -->
-  <text x="24" y="32"><tspan class="hud-label-gold">SCORE: </tspan><tspan class="hud-val-gold">123,000 PTS</tspan></text>
+  <text x="24" y="32"><tspan class="hud-label-gold">SCORE: </tspan><tspan class="hud-val-gold">127,000 PTS</tspan></text>
 
   <!-- RANK / LEVEL -->
   <text x="320" y="32"><tspan class="hud-label-cyan">RANK: </tspan><tspan class="hud-val-cyan">LVL 42 · AIML ARCHITECT</tspan></text>
@@ -343,10 +343,7 @@
   <rect x="662" y="160" width="14" height="14" rx="2.5" fill="#0F172A" stroke="#1E293B" stroke-width="0.75"><title>0 power units on 2026-04-23</title></rect>
   <rect x="662" y="178" width="14" height="14" rx="2.5" fill="#0F172A" stroke="#1E293B" stroke-width="0.75"><title>0 power units on 2026-04-24</title></rect>
   <rect x="662" y="196" width="14" height="14" rx="2.5" fill="#0F172A" stroke="#1E293B" stroke-width="0.75"><title>0 power units on 2026-04-25</title></rect>
-  <rect x="680" y="88" width="14" height="14" rx="2.5" fill="#40c463" stroke="#34D399" stroke-width="0.35">
-    <animate attributeName="fill" dur="18s" repeatCount="indefinite" values="#40c463; #40c463; #40c463; #FFFFFF; #38BDF8; #40c463; #40c463; #40c463; #FFFFFF; #38BDF8; #40c463; #40c463; #40c463" keyTimes="0.0000; 0.0001; 0.2665; 0.2745; 0.2825; 0.2865; 0.5000; 0.7175; 0.7255; 0.7335; 0.7375; 0.9999; 1.0000"/>
-    <title>2 power units on 2026-04-26</title>
-  </rect>
+  <rect x="680" y="88" width="14" height="14" rx="2.5" fill="#40c463" stroke="#34D399" stroke-width="0.35"><title>2 power units on 2026-04-26</title></rect>
   <rect x="680" y="106" width="14" height="14" rx="2.5" fill="#0F172A" stroke="#1E293B" stroke-width="0.75"><title>0 power units on 2026-04-27</title></rect>
   <rect x="680" y="124" width="14" height="14" rx="2.5" fill="#40c463" stroke="#34D399" stroke-width="0.35"><title>2 power units on 2026-04-28</title></rect>
   <rect x="680" y="142" width="14" height="14" rx="2.5" fill="#0F172A" stroke="#1E293B" stroke-width="0.75"><title>0 power units on 2026-04-29</title></rect>
@@ -502,8 +499,11 @@
   <rect x="1040" y="160" width="14" height="14" rx="2.5" fill="#30a14e" stroke="#34D399" stroke-width="0.35"><title>4 power units on 2026-09-17</title></rect>
   <rect x="1040" y="178" width="14" height="14" rx="2.5" fill="#40c463" stroke="#34D399" stroke-width="0.35"><title>2 power units on 2026-09-18</title></rect>
   <rect x="1040" y="196" width="14" height="14" rx="2.5" fill="#9be9a8" stroke="#34D399" stroke-width="0.35"><title>1 power units on 2026-09-19</title></rect>
-  <rect x="1058" y="88" width="14" height="14" rx="2.5" fill="#0F172A" stroke="#1E293B" stroke-width="0.75"><title>0 power units on 2026-09-20</title></rect>
-  <rect x="1058" y="106" width="14" height="14" rx="2.5" fill="#0F172A" stroke="#1E293B" stroke-width="0.75"><title>0 power units on untracked</title></rect>
+  <rect x="1058" y="88" width="14" height="14" rx="2.5" fill="#30a14e" stroke="#34D399" stroke-width="0.35">
+    <animate attributeName="fill" dur="18s" repeatCount="indefinite" values="#30a14e; #30a14e; #30a14e; #38BDF8; #30a14e; #FFFFFF; #30a14e; #FFFFFF; #30a14e; #38BDF8; #30a14e; #30a14e; #30a14e" keyTimes="0.0000; 0.0001; 0.4920; 0.4998; 0.4999; 0.5000; 0.5002; 0.5004; 0.5006; 0.5080; 0.5120; 0.9999; 1.0000"/>
+    <title>4 power units on 2026-09-20</title>
+  </rect>
+  <rect x="1058" y="106" width="14" height="14" rx="2.5" fill="#0F172A" stroke="#1E293B" stroke-width="0.75"><title>0 power units on 2026-09-21</title></rect>
   <rect x="1058" y="124" width="14" height="14" rx="2.5" fill="#0F172A" stroke="#1E293B" stroke-width="0.75"><title>0 power units on untracked</title></rect>
   <rect x="1058" y="142" width="14" height="14" rx="2.5" fill="#0F172A" stroke="#1E293B" stroke-width="0.75"><title>0 power units on untracked</title></rect>
   <rect x="1058" y="160" width="14" height="14" rx="2.5" fill="#0F172A" stroke="#1E293B" stroke-width="0.75"><title>0 power units on untracked</title></rect>
@@ -534,11 +534,6 @@
     <animate attributeName="opacity" dur="18s" repeatCount="indefinite" values="0; 0; 0; 1; 1; 0; 0; 0; 1; 1; 0; 0; 0" keyTimes="0.0000; 0.0001; 0.2447; 0.2467; 0.2527; 0.2607; 0.5000; 0.7393; 0.7413; 0.7473; 0.7553; 0.9999; 1.0000"/>
   </g>
   <g class="lock-bracket" opacity="0">
-    <path d="M677 89 V85 H681 M693 85 H697 V89 M697 101 V105 H693 M681 105 H677 V101" fill="none" stroke="#FACC15" stroke-width="1.5"/>
-    <circle cx="687" cy="95" r="2" fill="#FACC15"/>
-    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" values="0; 0; 0; 1; 1; 0; 0; 0; 1; 1; 0; 0; 0" keyTimes="0.0000; 0.0001; 0.2665; 0.2685; 0.2745; 0.2825; 0.5000; 0.7175; 0.7195; 0.7255; 0.7335; 0.9999; 1.0000"/>
-  </g>
-  <g class="lock-bracket" opacity="0">
     <path d="M857 197 V193 H861 M873 193 H877 V197 M877 209 V213 H873 M861 213 H857 V209" fill="none" stroke="#FACC15" stroke-width="1.5"/>
     <circle cx="867" cy="203" r="2" fill="#FACC15"/>
     <animate attributeName="opacity" dur="18s" repeatCount="indefinite" values="0; 0; 0; 1; 1; 0; 0; 0; 1; 1; 0; 0; 0" keyTimes="0.0000; 0.0001; 0.3274; 0.3294; 0.3354; 0.3434; 0.5000; 0.6566; 0.6586; 0.6646; 0.6726; 0.9999; 1.0000"/>
@@ -552,6 +547,11 @@
     <path d="M1001 107 V103 H1005 M1017 103 H1021 V107 M1021 119 V123 H1017 M1005 123 H1001 V119" fill="none" stroke="#FACC15" stroke-width="1.5"/>
     <circle cx="1011" cy="113" r="2" fill="#FACC15"/>
     <animate attributeName="opacity" dur="18s" repeatCount="indefinite" values="0; 0; 0; 1; 1; 0; 0; 0; 1; 1; 0; 0; 0" keyTimes="0.0000; 0.0001; 0.4028; 0.4048; 0.4108; 0.4188; 0.5000; 0.5812; 0.5832; 0.5892; 0.5972; 0.9999; 1.0000"/>
+  </g>
+  <g class="lock-bracket" opacity="0">
+    <path d="M1055 89 V85 H1059 M1071 85 H1075 V89 M1075 101 V105 H1071 M1059 105 H1055 V101" fill="none" stroke="#FACC15" stroke-width="1.5"/>
+    <circle cx="1065" cy="95" r="2" fill="#FACC15"/>
+    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" values="0; 0; 0; 1; 0; 1; 0; 1; 0; 1; 0; 0; 0" keyTimes="0.0000; 0.0001; 0.4920; 0.4940; 0.4998; 0.5000; 0.5002; 0.5004; 0.5006; 0.5021; 0.5080; 0.9999; 1.0000"/>
   </g>
 </g>
 
@@ -587,13 +587,6 @@
     <animate attributeName="opacity" dur="18s" repeatCount="indefinite" values="0; 0; 0; 1; 1; 0; 0; 0; 1; 1; 0; 0; 0" keyTimes="0.0000; 0.0001; 0.2517; 0.2527; 0.2607; 0.2627; 0.5000; 0.7463; 0.7473; 0.7553; 0.7573; 0.9999; 1.0000"/>
   </g>
   <g class="railgun-lance" opacity="0">
-    <line x1="683.5" y1="256" x2="683.5" y2="95" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
-    <line x1="683.5" y1="256" x2="683.5" y2="95" stroke="#38BDF8" stroke-width="4.5" stroke-opacity="0.45" stroke-linecap="round"/>
-    <line x1="690.5" y1="256" x2="690.5" y2="95" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
-    <line x1="690.5" y1="256" x2="690.5" y2="95" stroke="#38BDF8" stroke-width="4.5" stroke-opacity="0.45" stroke-linecap="round"/>
-    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" values="0; 0; 0; 1; 1; 0; 0; 0; 1; 1; 0; 0; 0" keyTimes="0.0000; 0.0001; 0.2735; 0.2745; 0.2825; 0.2845; 0.5000; 0.7245; 0.7255; 0.7335; 0.7355; 0.9999; 1.0000"/>
-  </g>
-  <g class="railgun-lance" opacity="0">
     <line x1="863.5" y1="256" x2="863.5" y2="203" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
     <line x1="863.5" y1="256" x2="863.5" y2="203" stroke="#38BDF8" stroke-width="4.5" stroke-opacity="0.45" stroke-linecap="round"/>
     <line x1="870.5" y1="256" x2="870.5" y2="203" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
@@ -613,6 +606,13 @@
     <line x1="1014.5" y1="256" x2="1014.5" y2="113" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
     <line x1="1014.5" y1="256" x2="1014.5" y2="113" stroke="#38BDF8" stroke-width="4.5" stroke-opacity="0.45" stroke-linecap="round"/>
     <animate attributeName="opacity" dur="18s" repeatCount="indefinite" values="0; 0; 0; 1; 1; 0; 0; 0; 1; 1; 0; 0; 0" keyTimes="0.0000; 0.0001; 0.4098; 0.4108; 0.4188; 0.4208; 0.5000; 0.5882; 0.5892; 0.5972; 0.5992; 0.9999; 1.0000"/>
+  </g>
+  <g class="railgun-lance" opacity="0">
+    <line x1="1061.5" y1="256" x2="1061.5" y2="95" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="1061.5" y1="256" x2="1061.5" y2="95" stroke="#38BDF8" stroke-width="4.5" stroke-opacity="0.45" stroke-linecap="round"/>
+    <line x1="1068.5" y1="256" x2="1068.5" y2="95" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="1068.5" y1="256" x2="1068.5" y2="95" stroke="#38BDF8" stroke-width="4.5" stroke-opacity="0.45" stroke-linecap="round"/>
+    <animate attributeName="opacity" dur="18s" repeatCount="indefinite" values="0; 0; 0; 1; 0; 1; 0; 1; 0; 1; 0; 0; 0" keyTimes="0.0000; 0.0001; 0.4990; 0.4998; 0.4999; 0.5000; 0.5002; 0.5004; 0.5006; 0.5080; 0.5100; 0.9999; 1.0000"/>
   </g>
 </g>
 
@@ -656,15 +656,6 @@
     </circle>
   </g>
   <g class="explosive-impact">
-    <circle cx="687" cy="95" r="0" fill="none" stroke="#FACC15" stroke-width="1.8" class="shockwave-primary" opacity="0">
-      <animate attributeName="r" dur="18s" repeatCount="indefinite" values="0; 0; 0; 3; 14; 0; 0; 3; 14; 0; 0" keyTimes="0.0000; 0.0001; 0.2735; 0.2745; 0.2825; 0.5000; 0.7245; 0.7255; 0.7335; 0.9999; 1.0000"/>
-      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" values="0; 0; 0; 1; 0; 0; 0; 1; 0; 0; 0" keyTimes="0.0000; 0.0001; 0.2735; 0.2745; 0.2825; 0.5000; 0.7245; 0.7255; 0.7335; 0.9999; 1.0000"/>
-    </circle>
-    <circle cx="687" cy="95" r="4" fill="#FFFFFF" opacity="0">
-      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" values="0; 0; 0; 1; 0; 0; 0; 1; 0; 0; 0" keyTimes="0.0000; 0.0001; 0.2735; 0.2745; 0.2825; 0.5000; 0.7245; 0.7255; 0.7335; 0.9999; 1.0000"/>
-    </circle>
-  </g>
-  <g class="explosive-impact">
     <circle cx="867" cy="203" r="0" fill="none" stroke="#FACC15" stroke-width="1.8" class="shockwave-primary" opacity="0">
       <animate attributeName="r" dur="18s" repeatCount="indefinite" values="0; 0; 0; 3; 14; 0; 0; 3; 14; 0; 0" keyTimes="0.0000; 0.0001; 0.3344; 0.3354; 0.3434; 0.5000; 0.6636; 0.6646; 0.6726; 0.9999; 1.0000"/>
       <animate attributeName="opacity" dur="18s" repeatCount="indefinite" values="0; 0; 0; 1; 0; 0; 0; 1; 0; 0; 0" keyTimes="0.0000; 0.0001; 0.3344; 0.3354; 0.3434; 0.5000; 0.6636; 0.6646; 0.6726; 0.9999; 1.0000"/>
@@ -689,6 +680,15 @@
     </circle>
     <circle cx="1011" cy="113" r="4" fill="#FFFFFF" opacity="0">
       <animate attributeName="opacity" dur="18s" repeatCount="indefinite" values="0; 0; 0; 1; 0; 0; 0; 1; 0; 0; 0" keyTimes="0.0000; 0.0001; 0.4098; 0.4108; 0.4188; 0.5000; 0.5882; 0.5892; 0.5972; 0.9999; 1.0000"/>
+    </circle>
+  </g>
+  <g class="explosive-impact">
+    <circle cx="1065" cy="95" r="0" fill="none" stroke="#FACC15" stroke-width="1.8" class="shockwave-primary" opacity="0">
+      <animate attributeName="r" dur="18s" repeatCount="indefinite" values="0; 0; 0; 14; 3; 0; 3; 0; 14; 0; 0" keyTimes="0.0000; 0.0001; 0.4990; 0.4998; 0.5000; 0.5002; 0.5004; 0.5006; 0.5080; 0.9999; 1.0000"/>
+      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" values="0; 0; 0; 0; 1; 0; 1; 0; 0; 0; 0" keyTimes="0.0000; 0.0001; 0.4990; 0.4998; 0.5000; 0.5002; 0.5004; 0.5006; 0.5080; 0.9999; 1.0000"/>
+    </circle>
+    <circle cx="1065" cy="95" r="4" fill="#FFFFFF" opacity="0">
+      <animate attributeName="opacity" dur="18s" repeatCount="indefinite" values="0; 0; 0; 0; 1; 0; 1; 0; 0; 0; 0" keyTimes="0.0000; 0.0001; 0.4990; 0.4998; 0.5000; 0.5002; 0.5004; 0.5006; 0.5080; 0.9999; 1.0000"/>
     </circle>
   </g>
 </g>
